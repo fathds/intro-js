@@ -1,24 +1,63 @@
-var condicion = true;
-
-//Programa que pida nombre y edad
-// Si es mayor de edad puede entrar a la discoteca
-// Si se llama Mario y es mayor de edad entra a VIP
-// 
-
-/*var nombre = "mario";
-var edad = 12;
-if(nombre === "mario" && edad >= 18){
-    console.log("Puedes entrar a la discoteca a la sala VIP");
-} else if(edad >= 18){
-    console.log("Puedes entrar a la discoteca");
+//1.- número divisible entre 2
+var numero=Number(prompt("Ingrese un número"))
+if (numero % 2 === 0){
+    console.log("El número es divisible entre dos")
+} else{
+console.log("NO es divisible entre dos")
 }
-else{
-    console.log("No puedes entrar a la discoteca, no tienes edad");
-}*/
 
-
-var comida;
-
-switch(comida){
-    case
+//2.- Número par
+var numero=Number(prompt("Ingrese un número"))
+if (numero % 2 === 0){
+    alert ("El número es par")
+} else{
+alert ("El número es INpar")
 }
+
+//3.- Premio
+var numero=Number(prompt("Ingrese un número"))
+if (numero === 1000){
+    console.log("GANASTE UN PREMIO")
+} else{
+    console.log(numero + " Lo sentimos, sigue participando")
+}
+
+//4.- menor de dos números
+var numero1=Number(prompt("Ingrese el primer número"))
+var numero2=Number(prompt("Ingrese el segundo número"))
+if (numero1 > numero2){
+    console.log(numero2 +" es el número menor")
+} else {
+    console.log(numero1 + " es el número menor")
+}
+
+//5.- mayor de 3 números y dos números iguales
+var numero1=Number(prompt("Ingrese el primer número"))
+var numero2=Number(prompt("Ingrese el segundo número"))
+var numero3=Number(prompt("Ingrese el tercer número"))
+ if (numero1 > numero2){
+         if (numero1 > numero3){
+            console.log("Numero 1 es Mayor");
+            }
+            else{
+              console.log("Numero 3 es Mayor");
+               }
+      }
+      else{
+         if(numero1 < numero2){
+            if (numero2 > numero3){
+               console.log("Numero 2 es Mayor");
+               }
+               else{
+                  console.log("Numero 3 es Mayor");
+                  }
+            }
+         }
+if (numero1 == numero2){
+   console.log("Numero 1 y Numero 2 son iguales ");
+   }
+   else if (numero1 == numero3){
+   console.log("Numero 1 y Numero 3 son iguales ");
+   }else if (numero2 == numero3){
+   console.log("Numero 2 y Numero 3 son iguales ");
+   }
